@@ -49,7 +49,7 @@ print("Financial Analysis")
 print("-----------------------")
 print("Total Months: " + str(month_count))
 print("Total Profits " + "$" + str(total_profit))
-print("Average Change " + "$" + str(int(average_profit_change)))
+print("Average Change " + str(int(average_profit_change)))
 print("Greatest Increase in Profits: " + str(date_inc) + " ($" + str(greatest_inc_profit) + ")")
 print("Greatest Decrease in Profits: " + str(date_dec) + " ($" + str(greatest_dec_profit) + ")")
 
